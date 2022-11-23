@@ -1,0 +1,170 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+  # - story: happy path 1
+  #   steps:
+  #     - user: |
+  #         hello there!
+  #       intent: greet
+  #     - action: utter_greet
+  #     - user: |
+  #         amazing
+  #       intent: mood_great
+  #     - action: utter_happy
+
+  # - story: happy path 2
+  #   steps:
+  #     - user: |
+  #         hello there!
+  #       intent: greet
+  #     - action: utter_greet
+  #     - user: |
+  #         amazing
+  #       intent: mood_great
+  #     - action: utter_happy
+  #     - user: |
+  #         bye-bye!
+  #       intent: goodbye
+  #     - action: utter_goodbye
+
+  - story: dialog1 a
+    steps:
+      - user: |
+          selamat pagi
+        intent: greet
+      - action: utter_greet
+      - user: |
+          Prosedur Pengambilan KHS/KRS
+        intent: question1
+      - action: utter_answer1
+      - action: utter_confirm
+      - user: |
+          iya
+        intent: affirm
+      - action: utter_thanks
+
+  - story: dialog1 d
+    steps:
+      - user: |
+          siang
+        intent: greet
+      - action: utter_greet
+      - user: |
+          Prosedur Pengambilan KRS
+        intent: question1
+      - action: utter_answer1
+      - action: utter_confirm
+      - user: |
+          tentu
+        intent: affirm
+      - action: utter_thanks
+
+  # - story: dialog2 path 1
+  #   steps:
+  #     - user: |
+  #         assalamualaikum
+  #       intent: greet
+  #     - action: utter_greet
+  #     - user: |
+  #         Panduan TA
+  #       intent: question2
+  #     - action: utter_answer2
+  #     - action: utter_did_that_help
+  #     - user: |
+  #         tentu
+  #       intent: affirm
+  #     - action: utter_thanks
+
+  # - story: dialog2 path 1
+  #   steps:
+  #     - user: |
+  #         assalamualaikum
+  #       intent: greet
+  #     - action: utter_greet
+  #     - user: |
+  #         Bagaimana Panduan TA?
+  #       intent: question2
+  #     - action: utter_answer2
+  #     - action: utter_did_that_help
+  #     - user: |
+  #         tidak
+  #       intent: deny
+  #     - action: utter_goodbye
+  - story: dialog5 a
+    steps:
+      - user: |
+          selamat pagi
+        intent: greet
+      - action: utter_greet
+      - user: |
+          Panduan skripsi
+        intent: question5
+      - action: utter_answer5
+      - action: utter_confirm
+      - user: |
+          iya
+        intent: affirm
+      - action: utter_thanks
+
+  - story: dialog5 d
+    steps:
+      - user: |
+          siang
+        intent: greet
+      - action: utter_greet
+      - user: |
+          SOP skripsi
+        intent: question5
+      - action: utter_answer5
+      - action: utter_confirm
+      - user: |
+          tidak
+        intent: deny
+      - action: utter_suggest
+
+  - story: dialog10 a
+    steps:
+      - user: |
+          selamat pagi
+        intent: greet
+      - action: utter_greet
+      - user: |
+          Petunjuk pengoprasian SIMAK
+        intent: question10
+      - action: utter_answer10
+      - action: utter_confirm
+      - user: |
+          iya
+        intent: affirm
+      - action: utter_thanks
+
+  - story: dialog10 d
+    steps:
+      - user: |
+          malam
+        intent: greet
+      - action: utter_greet
+      - user: |
+          cara menggunakan SIMAK
+        intent: question10
+      - action: utter_answer10
+      - action: utter_confirm
+      - user: |
+          tidak
+        intent: deny
+      - action: utter_suggest
+
+  - story: say goodbye
+    steps:
+      - user: |
+          terima kasih
+        intent: goodbye
+      - action: utter_thanks
+
+  # - story: bot challenge
+  #   steps:
+  #     - user: |
+  #         are you a bot?
+  #       intent: bot_challenge
+  #     - action: utter_iamabot

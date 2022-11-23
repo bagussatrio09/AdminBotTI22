@@ -1,0 +1,126 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  # - mood_great
+  # - mood_unhappy
+  # - bot_challenge
+  - question1
+  - question2
+  - question3
+  - question4
+  - question5
+  - question6
+  - question7
+  - question8
+  - question9
+  - question10
+  - question11
+  - question12
+  - question13
+
+responses:
+  utter_greet:
+    - text: "Halo, Selamat Datang di AdminBot Teknik Informatika \n \n
+    Berikut list pertanyaan serta informasi yang dapat kami bantu : \n 
+    - Prosedur Pengambilan KHS/KRS \n
+    - Prosedur mendapatkan transkip nilai \n
+    - Prosedur legalisir ijazah \n
+    - Prosedur pembuatan surat keterangan aktif kuliah \n
+    - Prosedur pembuatan surat keterangan pengambilan data untuk TA \n
+    - Prosedur pembuatan surat permohonan kerja praktik \n
+    - Prosedur pembuatan surat keterangan berkas untuk mengikuti MBKM \n
+    - Prosedur pembuatan surat keterangan lulus \n
+    - Panduan Tugas Akhir \n
+    - Persyaratan ujian Tugas Akhir / Komprehensif / Tesis \n
+    - Persyaratan Yudisium \n
+    - Panduan skripsi \n
+    - Panduan kerja praktik(KP) \n
+    - Panduan mengikuti Kampus Merdeka \n
+    - Cara mendaftar tes suliet/toefl \n
+    - Kontak Fasilkom Unsri \n
+    - Petunjuk pengoprasian Sistem Akademik(SIMAK) Unsri \n
+    - Pedoman Akademik Universitas Sriwijaya \n
+    - Cara mengajukan Penundaan Kegiatan Akademik(PKA) \n
+    - Cara mengajukan Stop Out(SO) \n
+    - Prosedur pelayanan administrasi akademik \n \n
+    Apa yang dapat saya bantu?"
+
+  utter_answer1:
+    - text: "Silahkan mahasiswa ke ruang akademik di gedung C Fasilkom. Pengajuan berkas tidak dipungut biaya dan tidak dapat diwakilkan."
+
+  utter_answer2:
+    - text: "Panduan Tugas Akhir dapat di unduh [disini](http://if.ilkom.unsri.ac.id/wp-content/uploads/2018/07/panduan_skripsi_2017.pdf)."
+
+  utter_answer3:
+    - text: "- Tidak memiliki nilai E/F untuk Program Diploma dan Program Sarjana, dan tidak memiliki nilai D/E/F untuk Program Magister. \n \n
+    - Untuk Program Diploma dan Program Sarjana, nilai D tidak melebihi 10% dari jumlah kredit yang ditetapkan. \n \n
+    - Telah dinyatakan lulus tes Bahasa Inggris (SULIET) untuk Program Magister dan Sarjana minimal skor mencapai 500, dan Program Diploma minimal skor mencapai 400. \n \n
+    - Telah lulus Mata Kuliah Kerja Praktek (S1 dan Diploma), lulus Mata Kuliah Seminar Proposal, Proposal Skripsi (TAI) dan lulus Seminar Program (bila ada) (S1), dan S2 telah lulus Tesis 1, lulus Seminar Hasil dan telah Publikasi Artikel Jurnal Nasional Terakreditasi (minimal SINTA 3) atau Jurnal Internasional.\n \n
+    - Telah menempuh seluruh Mata Kuliah wajib dan telah menyelesaikan minimal 144 SKS (termasuk TA 2) untuk Program Sarjana, 110 SKS untuk Program Diploma, 38 SKS untuk Program Magister. \n \n
+    - Hasil cek Plagiat tidak lebih dari 20%"
+
+  utter_answer4:
+    - text: "- Telah mencapai IPK 2.00 untuk Program Diploma dan Program Sarjana, IPK 2.76 untuk Program Magister, dan IPK 2 3.25 untuk Program Doktor.\n \n
+    - Tidak memiliki nilai E untuk Program Diploma dan Program Sarjana, dan tidak memiliki nilai D untuk Program Magister dan Doktor 3. Untuk Program Diploma dan Program Sarjana nilai D tidak melebihi 10% dari jumlah kredit yang ditetapkan. \n \n
+    - Telah dinyatakan lulus untuk kompetisi lain, seperti penguasaan Bahasa Inggris dengan memenuhi nilai Bahasa Inggris (SULIET) yang telah ditetapkan oleh Fakultas/Program/Jurusan/Prodi.
+    - Lulus ujian akhir program (Ujian Komprehensif ) dan telah menyelesaikan dengan baik perbaikan tugas akhir (Projek ), Skripsi, Tesis atau Disertasi sesuai dengan yang ditetapkan oleh Fakultas/Program/Jurusan/Pradi. \n \n
+    - Telah mengumpulkan Laporan jilid keras (Hard Cover) ke Jurusan/Prodi."
+  
+  utter_answer5:
+    - text: "Untuk panduan skripsi, silahkan akses link berikut ini:  [Panduan Skripsi](http://if.ilkom.unsri.ac.id/index.php/panduan-skripsi/)."
+  
+  utter_answer6:
+    - text: "Untuk panduan kerja praktik(KP), silahkan akses link berikut ini:  [Panduan Kerja Praktik](http://if.ilkom.unsri.ac.id/index.php/panduan-kerja-praktik/#)."
+  
+  utter_answer7:
+    - text: "Untuk panduan Kampus Merdeka(MBKM), silahkan akses link berikut ini:  [Panduan MBKM](http://if.ilkom.unsri.ac.id/index.php/panduan-kampus-merdekambkm/)."
+  
+  utter_answer8:
+    - text: "Untuk panduan mendaftar tes SULIET/TOEFEL, silahkan akses link berikut ini:  [Panduan SULIET/TOEFEL](https://usept.unsri.ac.id/) atau menghubungi pihak Lembaga Bahasa langsung, UPT Bahasa Universitas Sriwijaya Palembang 0821-8078-3694."
+  
+  utter_answer9:
+    - text: "Informasi Kontak Fasilkom Unsri:  [lihat disini](http://if.ilkom.unsri.ac.id/index.php/kontak/)."
+  
+  utter_answer10:
+    - text: "Petunjuk Pengoperasion SIMAK (Sistem Informasi Akademik):  [lihat disini](https://akademik.unsri.ac.id/user_manual.pdf)."
+
+  utter_answer11:
+    - text: "Pedoman Akademik Universitas Sriwijaya dapat di akses melalui link berikut:  [Pedoman Akademik Unsri](https://unsri.ac.id/main/pedoman_akademik)."
+  
+  # utter_answer12:
+  #   - buttons:
+  #       - payload: '/answer11'
+  #         title: 'Pedoman Akademik UNSRI'
+  #     text: "Pengajuan Penundaan Kegiatan Akademik (PKA) atau Stop Out (SO). Silahkan baca PDF Pedoman akademik  Universitas Sriwijaya halaman 54 dan 71."
+  
+  utter_answer12:
+    - text: "Pengajuan Penundaan Kegiatan Akademik (PKA) atau Stop Out (SO). Silahkan baca PDF Pedoman akademik  Universitas Sriwijaya halaman 54 dan 71."
+  
+  utter_answer13:
+    - text: "PROSEDUR PELAYANAN ADMINISTRASI AKADEMIK, KEMAHASISWAAN DAN ALUMNI. Halaman 71-sampai habis penting semua."
+
+  utter_confirm:
+    - text: "apakah jawaban ini membantu?"
+      buttons:
+        - title: "Iya"
+          payload: "/affirm"
+        - title: "Tidak"
+          payload: "/deny"
+
+  utter_suggest:
+    - text: "Baik, saya akan memperbaiki kedepannya. Silahkan isi kritik dan saran pada link berikut [Form Kritik dan Saran](https://forms.gle/QaM1Awn5Qgyw7BMo7), Terima Kasih."
+
+  # utter_goodbye:
+  #   - text: "Semangat terus ya, Terima Kasih"
+
+  utter_thanks:
+    - text: "Terima Kasih, Semoga Bermanfaat"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

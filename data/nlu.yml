@@ -1,0 +1,203 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - halo
+      - Assalamualaikum
+      - selamat pagi
+      - selamat siang
+      - selamat malam
+      - pagi
+      - siang
+      - malam
+
+  - intent: goodbye
+    examples: |
+      - sampai berjumpa kembali
+      - sampai jumpa
+      - bye
+      - goodbye
+      - semoga harimu menyenangkan
+      - terima kasih
+      - oke
+      - Senang ngobrol dengan Anda.
+
+  - intent: affirm
+    examples: |
+      - iya
+      - ya
+      - benar
+      - setuju
+      - tentu
+      - y
+
+  - intent: deny
+    examples: |
+      - tidak
+      - no
+      - n
+      - tidak juga
+
+  # - intent: mood_great
+  #   examples: |
+  #     - perfect
+  #     - great
+  #     - amazing
+  #     - feeling like a king
+  #     - wonderful
+  #     - I am feeling very good
+  #     - I am great
+  #     - I am amazing
+  #     - I am going to save the world
+  #     - super stoked
+  #     - extremely good
+  #     - so so perfect
+  #     - so good
+  #     - so perfect
+
+  # - intent: mood_unhappy
+  #   examples: |
+  #     - my day was horrible
+  #     - I am sad
+  #     - I don't feel very well
+  #     - I am disappointed
+  #     - super sad
+  #     - I'm so sad
+  #     - sad
+  #     - very sad
+  #     - unhappy
+  #     - not good
+  #     - not very good
+  #     - extremly sad
+  #     - so saad
+  #     - so sad
+
+  # - intent: bot_challenge
+  #   examples: |
+  #     - are you a bot?
+  #     - are you a human?
+  #     - am I talking to a bot?
+  #     - am I talking to a human?
+
+  - intent: question1
+    examples: |
+      - Prosedur Pengambilan KHS?
+      - Prosedur Pengambilan KRS?
+      - Prosedur Pengambilan KHS/KRS
+      - Prosedur mendapatkan transkip nilai
+      - Prosedur legalisir ijazah
+      - Prosedur pembuatan surat keterangan aktif kuliah
+      - Prosedur pembuatan surat keterangan pengambilan data untuk TA
+      - Prosedur pembuatan surat permohonan kerja praktik
+      - Prosedur pembuatan surat keterangan berkas untuk mengikuti MBKM
+      - Prosedur pembuatan surat keterangan lulus
+
+  - intent: question2
+    examples: |
+      - Bagaimana Panduan TA?
+      - Panduan TA
+      - Panduan Tugas Akhir
+      - Prosedur Tugas Akhir
+
+  - intent: question3
+    examples: |
+      - Apa persyaratan ujian Tugas Akhir?
+      - apa persyaratan ujian Komprehensif?
+      - apa persyaratan ujian Tesis?
+      - Persyaratan ujian Tugas Akhir
+      - Persyaratan ujian Komprehensif
+      - Persyaratan ujian Tesis
+      - Persyaratan ujian Tugas Akhir / Komprehensif / Tesis
+
+  - intent: question4
+    examples: |
+      - apa persyaratan yudisium?
+      - Persyaratan Yudisium
+      - syarat mengikuti yudisium
+      - apa yang diperlukan untuk mengikuti yudisium
+
+  - intent: question5
+    examples: |
+      - Panduan skripsi
+      - bagaimana panduan skripsi?
+      - bagaimana cara mengajukan proposal judul skripsi
+      - SOP skripsi
+      - Lampiran SOP Skripsi
+      - form upload lampiran SOP skripsi
+      - alur proposal skripsi
+      - alur skripsi
+
+  - intent: question6
+    examples: |
+      - Panduan kerja praktik
+      - Panduan KP
+      - bagaimana panduan KP?
+      - Panduan kerja praktik(KP)
+      - Alur melaksanakan kerja praktik
+      - syarat mengikuti kerja praktik
+
+  - intent: question7
+    examples: |
+      - Panduan mengikuti Kampus Merdeka
+      - panduan MBKM
+      - bagaimana panduan mengikuti kampus merdeka?
+      - prosedur mengikuti kampus merdeka
+      - cara mengikuti kampus merdeka
+      - cara mengikuti MBKM
+      - Formulir pendaftaran MBKM
+      - Lampiran MBKM
+      - Rekomendasi Konversi MBKM
+
+  - intent: question8
+    examples: |
+      - bagaimana cara mendaftar tes suliet?
+      - bagaimana cara mendaftar tes toefl?
+      - bagaimana cara mendaftar tes suliet/toefl?
+      - Cara mendaftar tes suliet
+      - Cara mendaftar tes toefl
+      - Cara mendaftar tes suliet/toefl
+
+  - intent: question9
+    examples: |
+      - Kontak Fasilkom Unsri
+      - Informasi kontak fasilkom unsri
+      - Kontak yang dapat dihubungi
+      - nomor telepon fasilkom
+      - alamat jurusan teknik informatika fasilkom unsri
+      - alamat kantor administrasi teknik informatika
+
+  - intent: question10
+    examples: |
+      - Petunjuk pengoprasian SIMAK
+      - petunjuk pengoprasian sistem akademik unsri
+      - cara menggunakan SIMAK
+      - cara menggunakan sistem akademik universitas sriwijaya
+      - petunjuk pengoprasian Sistem Akademik(SIMAK) Unsri
+      - Pedoman pengorasian SIMAK
+
+  - intent: question11
+    examples: |
+      - Pedoman akademik UNSRI
+      - Pedoman Akademik Universitas Sriwijaya
+      - petunjuk akademik UNSRI
+      - acuan akademik UNSRI
+
+  - intent: question12
+    examples: |
+      - cara mengajukan penundaan kegiatan akademik
+      - cara mengajukan PKA
+      - Cara mengajukan Penundaan Kegiatan Akademik(PKA)
+      - cara mengajukan stop out
+      - cara mengajukan SO
+      - Cara mengajukan Stop Out(SO)
+
+  - intent: question13
+    examples: |
+      - Prosedur pelayanan administrasi akademik
+      - tata cara pelayanan adminstrasi akademik
+      - pelayanan adminstrasi akademik
+      - administrasi akademik

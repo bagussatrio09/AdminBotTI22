@@ -1,0 +1,289 @@
+version: "3.1"
+
+stories:
+  # - story: happy path
+  #   steps:
+  #     - intent: greet
+  #     - action: utter_greet
+  #     - intent: mood_great
+  #     - action: utter_happy
+
+  # - story: sad path 1
+  #   steps:
+  #     - intent: greet
+  #     - action: utter_greet
+  #     - intent: mood_unhappy
+  #     - action: utter_cheer_up
+  #     - action: utter_did_that_help
+  #     - intent: affirm
+  #     - action: utter_happy
+
+  # - story: sad path 2
+  #   steps:
+  #     - intent: greet
+  #     - action: utter_greet
+  #     - intent: mood_unhappy
+  #     - action: utter_cheer_up
+  #     - action: utter_did_that_help
+  #     - intent: deny
+  #     - action: utter_goodbye
+
+  - story: dialog1 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question1
+      - action: utter_answer1
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog1 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question1
+      - action: utter_answer1
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog2 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question2
+      - action: utter_answer2
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog2 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question2
+      - action: utter_answer2
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog3 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question3
+      - action: utter_answer3
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog3 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question3
+      - action: utter_answer3
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog4 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question4
+      - action: utter_answer4
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog4 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question4
+      - action: utter_answer4
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog5 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question5
+      - action: utter_answer5
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog5 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question5
+      - action: utter_answer5
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog6 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question6
+      - action: utter_answer6
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog6 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question6
+      - action: utter_answer6
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog7 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question7
+      - action: utter_answer7
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog7 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question7
+      - action: utter_answer7
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog8 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question8
+      - action: utter_answer8
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog8 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question8
+      - action: utter_answer8
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog9 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question9
+      - action: utter_answer9
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog9 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question9
+      - action: utter_answer9
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog10 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question10
+      - action: utter_answer10
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog10 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question10
+      - action: utter_answer10
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog11 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question11
+      - action: utter_answer11
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog11 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question11
+      - action: utter_answer11
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog12 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question12
+      - action: utter_answer12
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog12 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question12
+      - action: utter_answer12
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
+
+  - story: dialog13 a
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question13
+      - action: utter_answer13
+      - action: utter_confirm
+      - intent: affirm
+      - action: utter_thanks
+
+  - story: dialog13 d
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: question13
+      - action: utter_answer13
+      - action: utter_confirm
+      - intent: deny
+      - action: utter_suggest
